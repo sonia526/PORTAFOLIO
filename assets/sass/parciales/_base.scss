@@ -1,0 +1,32 @@
+.barra{
+	background-color:$azul;
+	font-size:15px;
+}
+.progress{
+	// font-size:10px;
+	height:18px;
+}
+.section-contac{
+	width:100%;
+	height: 150px;
+}
+.iconito{ 
+	font-size:80px;
+	color:$azul;
+	border-radius:50px;
+	display:inline-block;
+	margin:10px;
+}
+.contacto{
+	color:$azul;
+	font-size:40px;
+	font-family:'Passion One', cursive;
+	
+		}
+.footer{
+	background-color:$azul;
+	padding:25px;
+	.text-footer{
+		color:white;
+	}
+}

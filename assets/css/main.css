@@ -1,0 +1,104 @@
+.barra {
+  background-color: #082F8A;
+  font-size: 15px; }
+
+.progress {
+  height: 18px; }
+
+.section-contac {
+  width: 100%;
+  height: 150px; }
+
+.iconito {
+  font-size: 80px;
+  color: #082F8A;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px; }
+
+.contacto {
+  color: #082F8A;
+  font-size: 40px;
+  font-family: 'Passion One', cursive; }
+
+.footer {
+  background-color: #082F8A;
+  padding: 25px; }
+  .footer .text-footer {
+    color: white; }
+
+.menu {
+  background-color: #082F8A;
+  whith: 100%;
+  color: white;
+  padding: 10px; }
+
+.lista {
+  font-size: 20px; }
+
+.fila-container {
+  background-color: rgba(136, 136, 136, 0.4);
+  width: 100%;
+  height: 100vh; }
+
+.intro {
+  background-image: url("../img/HOMEescritorio.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.color-letra {
+  margin-top: -40px;
+  background-color: rgba(0, 0, 255, 0.3);
+  width: 50%; }
+
+.text-home1 {
+  margin-top: 200px;
+  font-size: 80px;
+  font-family: "Passion One", cursive;
+  color: #082F8A; }
+
+.text-home2 {
+  color: #4372FF;
+  font-family: 'Passion One', cursive;
+  font-size: 30px; }
+
+.habilidades {
+  width: 60%;
+  heigth: 200px;
+  diplay: flex;
+  align-content: center; }
+
+.mi-foto {
+  margin-top: 30px;
+  border-radius: 15%;
+  width: 75%;
+  margin-right: 0; }
+
+.s-1 {
+  background-color: #082F8A;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.s-text {
+  color: white;
+  font-size: 20px; }
+
+.s1-text {
+  color: white;
+  font-size: 40px; }
+
+.s-3 {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.text-habilidades {
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

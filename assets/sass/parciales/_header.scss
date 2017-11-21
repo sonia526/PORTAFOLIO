@@ -1,0 +1,50 @@
+.menu{
+    background-color:$azul;
+    whith:100%;
+    color:white;
+    padding:10px;
+}
+.lista{
+    font-size:20px;
+}
+.fila-container{
+    background-color:rgba(136,136,136,0.4);
+    width:100%;
+    height:100vh;
+}
+.intro{
+	
+    background-image: url("../img/HOMEescritorio.jpg");
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.color-letra{
+    margin-top:-40px;  
+    background-color:rgba(0,0,255,0.3);
+    width:50%;
+    // height:200px;
+}
+
+.text-home1{
+	margin-top: 200px;
+	font-size:80px;
+	font-family: $cursive;
+	// font-size: 3vh;
+	// font-size: 3vw;
+	color: #082F8A;
+	//este color #0D48B2 es mas bonito intenso con vida
+	//font-size: 3vh; /*30% la altura del dispositivo*/
+	//font-size: 3vw; /*30% el ancho del dispositivo*/
+}
+.text-home2{
+    // color:#1A4686;
+    color:$primary-azul;
+    font-family: 'Passion One', cursive;
+    font-size:30px;
+
+ //    font-size: 3vh;
+	// font-size: 3vw;
+    // este color es mas claro
+}
