@@ -1,0 +1,14 @@
+.fade {
+   opacity: 0.25;
+
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   border-radius:20px;
+   border:2px solid #dc4802;
+   height:200px;
+}
+
+.fade:hover {
+      opacity: 10;
+}

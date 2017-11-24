@@ -1,34 +1,66 @@
 .barra {
-  background-color: #082F8A;
+  background-color: #E99B12;
   font-size: 15px; }
 
 .progress {
   height: 18px; }
 
+/*habilidades*/
+.habi-container {
+  background-color: rgba(136, 136, 136, 0.6);
+  width: 100%;
+  height: 100vh; }
+
+.text-habi {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #E99B12;
+  font-family: "Passion One", cursive; }
+
+.habi {
+  position: relative;
+  border-radius: 40px;
+  width: 20%;
+  margin: 0,0,0,20px; }
+
 .section-contac {
   width: 100%;
-  height: 150px; }
+  height: 200px; }
 
 .iconito {
   font-size: 80px;
-  color: #082F8A;
+  color: grey;
   border-radius: 50px;
   display: inline-block;
   margin: 10px; }
 
 .contacto {
-  color: #082F8A;
+  position: relative;
+  color: #E99B12;
   font-size: 40px;
   font-family: 'Passion One', cursive; }
 
 .footer {
-  background-color: #082F8A;
+  background-color: #E99B12;
   padding: 25px; }
   .footer .text-footer {
     color: white; }
 
+.fade {
+  opacity: 0.25;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  border-radius: 20px;
+  border: 2px solid #dc4802;
+  height: 200px; }
+
+.fade:hover {
+  opacity: 10; }
+
 .menu {
-  background-color: #082F8A;
+  background-color: #dc4802;
   whith: 100%;
   color: white;
   padding: 10px; }
@@ -42,25 +74,29 @@
   height: 100vh; }
 
 .intro {
-  background-image: url("../img/HOMEescritorio.jpg");
+  background-image: url("../img/lentesmesa.jpg");
   width: 100%;
   height: 100vh;
-  background-size: cover;
-  background-position: center; }
+  background-position: center;
+  /*solo lo de abajo crea el parallax*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .color-letra {
   margin-top: -40px;
-  background-color: rgba(0, 0, 255, 0.3);
+  background-color: rgba(105, 112, 122, 0.8);
   width: 50%; }
 
 .text-home1 {
   margin-top: 200px;
   font-size: 80px;
-  font-family: "Passion One", cursive;
-  color: #082F8A; }
+  font-family: Raleway, sans-serif;
+  color: #E99B12; }
 
 .text-home2 {
-  color: #4372FF;
+  color: white;
   font-family: 'Passion One', cursive;
   font-size: 30px; }
 
@@ -70,14 +106,144 @@
   diplay: flex;
   align-content: center; }
 
+#shiva {
+  width: 100px;
+  height: 100px;
+  background: #082F8A;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float: left;
+  margin: 5px;
+  /*cetra el nuemro en el circulo*/ }
+  #shiva .count {
+    line-height: 100px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px; }
+
+.slideshow {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+
+.slideshow-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  animation-name: kenburns;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 16s;
+  opacity: 1;
+  transform: scale(1.2); }
+  .slideshow-image:nth-child(1) {
+    animation-name: kenburns-1;
+    z-index: 3; }
+  .slideshow-image:nth-child(2) {
+    animation-name: kenburns-2;
+    z-index: 2; }
+  .slideshow-image:nth-child(3) {
+    animation-name: kenburns-3;
+    z-index: 1; }
+  .slideshow-image:nth-child(4) {
+    animation-name: kenburns-4;
+    z-index: 0; }
+
+@keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    transform: scale(1.2); }
+  1.5625% {
+    opacity: 1; }
+  23.4375% {
+    opacity: 1; }
+  26.5625% {
+    opacity: 0;
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1.2); }
+  98.4375% {
+    opacity: 0;
+    transform: scale(1.2117647059); }
+  100% {
+    opacity: 1; } }
+@keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    transform: scale(1.2); }
+  26.5625% {
+    opacity: 1; }
+  48.4375% {
+    opacity: 1; }
+  51.5625% {
+    opacity: 0;
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1.2); } }
+@keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    transform: scale(1.2); }
+  51.5625% {
+    opacity: 1; }
+  73.4375% {
+    opacity: 1; }
+  76.5625% {
+    opacity: 0;
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1.2); } }
+@keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    transform: scale(1.2); }
+  76.5625% {
+    opacity: 1; }
+  98.4375% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: scale(1); } }
+h1 {
+  color: #E99B12;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 99;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  padding: 1em 2em;
+  line-height: 1.5; }
+  h1 small {
+    display: block;
+    text-transform: lowercase;
+    font-size: .7em; }
+    h1 small:first-child {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      padding-bottom: .5em; }
+    h1 small:last-child {
+      border-top: 1px solid rgba(0, 0, 0, 0.25);
+      padding-top: .5em; }
+
 .mi-foto {
-  margin-top: 30px;
+  margin-top: 80px;
   border-radius: 15%;
-  width: 75%;
-  margin-right: 0; }
+  width: 60%; }
 
 .s-1 {
-  background-color: #082F8A;
+  background-color: #dc4802;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -85,11 +251,13 @@
 
 .s-text {
   color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: "Sarala", sans-serif; }
 
 .s1-text {
-  color: white;
-  font-size: 40px; }
+  color: #E9B32E;
+  font-size: 60px;
+  font-family: "Passion One", cursive; }
 
 .s-3 {
   background-color: white;
