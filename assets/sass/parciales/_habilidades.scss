@@ -54,8 +54,7 @@ ul { list-style-type: none;
   
 }
 .tools{
-  background-color: rgba(1,55,102,0.2);
-  border: 3px solid #3a75bc; 
+  // background-color: rgba(1,55,102,0.2);
   margin-bottom: 5%;
 }
 .tools h2{
@@ -71,6 +70,38 @@ ul { list-style-type: none;
 	align-content:center;
 
 }
-.columna-progre{
-	background-color:red;
+.fila-habili{
+  
+   background: -moz-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(26,70,134,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#1A4686',GradientType=1 ); /* ie6-9 */
+}
+
+
+.barra{
+  background-color:orange;
+
+}
+// #habilidades{
+// background: -moz-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+// background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(26,70,134,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+// background: -webkit-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+// background: -o-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+// background: -ms-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+// background: linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#1A4686',GradientType=1 ); /* ie6-9 */
+// }
+.text-portafolio{
+        margin-top:50px;
+        color:#E9B32E;
+        font-size:60px;
+        font-family: $cursive;
+}
+.habi-text{
+  color:white;
+  font-size:20px;
 }

@@ -1,11 +1,11 @@
 .fade {
    opacity: 0.25;
-
+   color:#E9B32E;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-   border-radius:20px;
-   border:2px solid #dc4802;
+   // border-radius:20px;
+   border:4px solid #E9B32E;
    height:200px;
 }
 

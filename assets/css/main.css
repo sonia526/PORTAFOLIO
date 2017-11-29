@@ -1,10 +1,3 @@
-.barra {
-  background-color: #E99B12;
-  font-size: 15px; }
-
-.progress {
-  height: 18px; }
-
 /*habilidades*/
 .habi-container {
   background-color: rgba(136, 136, 136, 0.6);
@@ -42,18 +35,18 @@
   font-family: 'Passion One', cursive; }
 
 .footer {
-  background-color: #DC4802;
+  background-color: #005F9C;
   padding: 25px; }
   .footer .text-footer {
     color: white; }
 
 .fade {
   opacity: 0.25;
+  color: #E9B32E;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
-  border-radius: 20px;
-  border: 2px solid #dc4802;
+  border: 4px solid #E9B32E;
   height: 200px; }
 
 .fade:hover {
@@ -78,8 +71,8 @@
   /*haber-----*/
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    /*el color de abajo de #00B0B2 es lo que le pone color cuanso el se baja a otras secciones */
-    background: #DC4802;
+    /*segundo nav naranja*/
+    background: #005F9C;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 /*fin de navbar prueba*/
 .menu {
@@ -172,8 +165,6 @@ ul {
   border: 3px solid #3a75bc; }
 
 .tools {
-  background-color: rgba(1, 55, 102, 0.2);
-  border: 3px solid #3a75bc;
   margin-bottom: 5%; }
 
 .tools h2 {
@@ -186,8 +177,34 @@ ul {
   diplay: flex;
   align-content: center; }
 
-.columna-progre {
-  background-color: red; }
+.fila-habili {
+  background: -moz-linear-gradient(45deg, #1a4686 0%, teal 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #1a4686), color-stop(100%, teal));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, #1a4686 0%, teal 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, #1a4686 0%, teal 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #1a4686 0%, teal 100%);
+  /* ie10+ */
+  background: linear-gradient(45deg, #1a4686 0%, teal 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#1A4686',GradientType=1 );
+  /* ie6-9 */ }
+
+.barra {
+  background-color: orange; }
+
+.text-portafolio {
+  margin-top: 50px;
+  color: #E9B32E;
+  font-size: 60px;
+  font-family: "Passion One", cursive; }
+
+.habi-text {
+  color: white;
+  font-size: 20px; }
 
 @media screen and (min-width: 769px) {
   html {
@@ -243,7 +260,7 @@ a {
   cursor: pointer;
   font-size: 2.2rem;
   font-weight: 700;
-  color: #448AFF; }
+  color: #E99B12; }
 
 .controls__group:nth-child(2) {
   margin-right: 2rem;
@@ -255,8 +272,8 @@ a {
   left: -9999px; }
 
 .controls__switch:checked ~ .controls__param {
-  color: #000;
-  border-color: #000; }
+  color: white;
+  border-color: white; }
 
 /*
  * skillbar
