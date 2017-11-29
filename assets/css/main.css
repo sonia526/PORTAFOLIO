@@ -6,7 +6,7 @@
 
 .text-habi {
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 20px;
   color: #E99B12;
   font-family: "Passion One", cursive; }
@@ -17,16 +17,29 @@
   width: 20%;
   margin: 0,0,0,20px; }
 
+/*habilidades fin */
 .section-contac {
+  margin-top: 70px;
   width: 100%;
-  height: 200px; }
+  height: 300px; }
 
 .iconito {
-  font-size: 80px;
-  color: grey;
+  font-size: 50px;
+  color: #005F9C;
   border-radius: 50px;
   display: inline-block;
   margin: 10px; }
+
+.btn {
+  font-size: 23px;
+  color: white;
+  padding: 5px;
+  background-color: #E99B12;
+  width: 200px; }
+
+.btn:hover {
+  color: #005F9C;
+  padding: 5px; }
 
 .contacto {
   position: relative;
@@ -34,14 +47,27 @@
   font-size: 40px;
   font-family: 'Passion One', cursive; }
 
+a.text-icono {
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #E99B12;
+  font-family: "Passion One", cursive; }
+
+a.text-icono:hover {
+  color: #005F9C; }
+
 .footer {
   background-color: #005F9C;
   padding: 25px; }
   .footer .text-footer {
+    text-decoration: none;
+    font-size: 20px;
     color: white; }
 
 .fade {
-  opacity: 0.25;
+  opacity: 30;
   color: #E9B32E;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
@@ -50,7 +76,19 @@
   height: 200px; }
 
 .fade:hover {
-  opacity: 10; }
+  opacity: 10;
+  color: green; }
+
+.text-portafolio {
+  margin-top: 150px;
+  color: #E9B32E;
+  font-size: 40px;
+  font-family: "Passion One", cursive; }
+
+.titulo-porta {
+  color: #E9B32E;
+  font-size: 20px;
+  font-family: "Passion One", cursive; }
 
 /*navbar prueba*/
 .navbar-custom .nav li a:hover {
@@ -195,12 +233,6 @@ ul {
 
 .barra {
   background-color: orange; }
-
-.text-portafolio {
-  margin-top: 50px;
-  color: #E9B32E;
-  font-size: 60px;
-  font-family: "Passion One", cursive; }
 
 .habi-text {
   color: white;
@@ -526,6 +558,7 @@ h1 {
   font-family: "Sarala", sans-serif; }
 
 .s1-text {
+  margin-top: 40px;
   color: #E9B32E;
   font-size: 60px;
   font-family: "Passion One", cursive; }

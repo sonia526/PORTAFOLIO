@@ -1,5 +1,5 @@
 .fade {
-   opacity: 0.25;
+   opacity: 30;
    color:#E9B32E;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -11,4 +11,18 @@
 
 .fade:hover {
       opacity: 10;
+      color:green;
+}
+//sobra del portafolio 
+.text-portafolio{
+        margin-top:150px;
+        color:#E9B32E;
+        font-size:40px;
+        font-family: $cursive;
+}
+.titulo-porta{
+
+        color:#E9B32E;
+        font-size:20px;
+        font-family: $cursive;
 }

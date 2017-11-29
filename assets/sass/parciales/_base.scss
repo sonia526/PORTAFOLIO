@@ -8,7 +8,7 @@
 }
 .text-habi{
 	font-size:40px;
-	margin-top:40px;
+	margin-top:100px;
 	margin-bottom:20px;
 	// margin-right:;
 	// margin-left:;
@@ -21,16 +21,30 @@
 	width:20%;
 	margin:0,0,0,20px;
 }
+/*habilidades fin */
 .section-contac{
+	margin-top:70px;
 	width:100%;
-	height: 200px;
+	height: 300px;
 }
 .iconito{ 
-	font-size:80px;
-	color:grey;
+	font-size:50px;
+	color:#005F9C;
 	border-radius:50px;
 	display:inline-block;
 	margin:10px;
+}
+.btn{
+	font-size:23px;
+	color:white;
+	padding:5px;
+	background-color:#E99B12;
+	width:200px;
+}
+.btn:hover{
+    color:#005F9C;
+    padding:5px;
+
 }
 .contacto{
 	position:relative;
@@ -39,10 +53,25 @@
 	font-family:'Passion One', cursive;
 	
 		}
+a.text-icono{
+	text-decoration:none;  
+	font-size:30px;
+	margin-top:100px;
+	margin-bottom:20px;
+	// margin-right:;
+	// margin-left:;
+	color:#E99B12;
+	font-family:$cursive;
+}
+a.text-icono:hover{
+    color:#005F9C;
+}		
 .footer{
 	background-color:#005F9C;
 	padding:25px;
 	.text-footer{
+		text-decoration:none;
+		font-size:20px;
 		color:white;
 	}
 }
