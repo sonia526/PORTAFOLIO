@@ -12,13 +12,18 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target="navbar-fixed-top">
   <nav class="navbar navbar-custom navbar-fixed-top menu " role="navigation">
         <div class="container-fluid ">
           <div class="navbar-header ">
-            <button type="button" class="navbar-toggle hambuguesa" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <!-- <button type="button" class="navbar-toggle hambuguesa" data-toggle="collapse" data-target=".navbar-main-collapse">
                Menú  <i class="fa fa-bars "></i>
-            </button>
+            </button> -->
+            <button type="button" class="navbar-toggle hamburguesa" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
           </div> 
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                <ul class="nav navbar-nav lista">
@@ -27,7 +32,7 @@
                   </li>
                   <li><a class="page-scroll menu" href="#about">Sobre mí</a></li>
                   <li><a class="page-scroll menu" href="#portafolio">Portafolio</a></li> 
-                  <li><a class="page-scroll menu" href="#habil">Habilidades</a></li> 
+                  <li><a class="page-scroll menu" href="#habilidades">Habilidades</a></li> 
                   <li><a class="page-scroll menu" href="#contacto">Contacto</a></li>  
                 </ul>
              </div>
@@ -57,7 +62,7 @@
     <!-- /**/ -->
     <!-- fin de seccion de prueba -->
     <!-- sobre mi-->
-  <section class="s-1">
+  <section id="about" class="s-1">
       <div class="container">
         <div class="row text-center">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
@@ -76,9 +81,10 @@
       </div>
   </section>
   <!-- portafolio   -->
-  <section>
+  <section id="portafolio">
+      <h2 class="text-center">PORTAFOLIO</h2>
     <div class="container-fluid">
-      <div class="row text-center"><br><br><br>
+        <div class="row text-center"><br><br><br>
         
           <div class="col-sm-4 ">
             <a href="https://sonia526.github.io/SPRINT4-labcar/" target="_blanck"><img src="assets/img/lab.png" class="fade" style="width:70%" alt="Image"></a>
@@ -101,40 +107,77 @@
   <!-- fin portafolio -->
   <!-- habilidades -->
 
-<div class="container ">    
+<div id="habilidades" class="container ">    
   <h3 class="text-habi text-center">HABILIDADES</h3><br>
-  <div class="row text-center">
-    <div class="col-sm-4 ">
-      <img src="assets/img/JavaScript3.png" class="habi" style="width:50%" alt="Image">
-      
-    </div>
-    <div class="col-sm-4"> 
-      <img src="assets/img/html.png" class="habi" style="width:50%" alt="Image">
+  <div class="row text-center ">
+    <div class="col-md-6 columna-progre">
+      <p class="text-right">porcentaje</p>
+       <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            60%
+          </div>
+       </div>
+       <p class="text-right">porcentaje</p>
+       <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            60%
+          </div>
          
+       </div>
+         <p class="text-right">porcentaje</p>
+       <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            60%
+          </div>
+       </div> 
+       
+       <p class="text-right">porcentaje</p>
+       <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            60%
+          </div>
+       </div> 
+              
+  </div>
+    <div class="col-md-6 col-xs-12 tools ">
+
+            <h2 class="caption white"> Herramientas y Frameworks</h2>
+              <div class="skillbar js-skillbar">
+      <span class="skillbar__value js-skillbar__value">92%</span>
+      <svg class="skillbar__progress">
+        <circle  class="skillbar__progress-circle skillbar__progress-bar" cx="50%" cy="50%" r="40%" stroke-width="var(--skillBarStrokeWidth)" stroke="var(--skillBarColor)" fill="none"></circle>
+        <circle class="skillbar__progress-circle skillbar__progress-value js-skillbar__progress-value" cx="50%" cy="50%" r="40%" stroke-width="var(--skillBarStrokeWidth)" stroke="var(--skillBarColor)" stroke-linejoin="round" stroke-linecap="round" fill="none"></circle>
+      </svg>
     </div>
-    <div class="col-sm-4"> 
-      <img src="assets/img/css.png" class=" habi" style="width:50%" alt="Image">
-         
-    </div>
-  </div><br><br>
-  <div class="row text-center">
-    <div class="col-sm-4">
-      <img src="assets/img/bootstrap.png" class="habi" style="width:50%" alt="Image">
-      
-    </div><br>
-    <div class="col-sm-4"> 
-      <img src="assets/img/git.png" class="habi" style="width:50%" alt="Image">
-          
-    </div><br>
-    <div class="col-sm-4"> 
-      <img src="assets/img/sass.jpg" class="habi" style="width:50%" alt="Image">
-          
+    <div class="controls text-center">
+      <div class="controls__params">
+        <div class="controls__group">
+          <input type="radio" id="v1" name="values" class="controls__switch  js-switch" data-skill-bar-color="#fec55a" data-skill-bar-value="92" checked>
+          <label for="v1" class="controls__param">Bootstrap</label>
+        </div>
+        <div class="controls__group">
+          <input type="radio" id="v2" name="values" class="controls__switch js-switch" data-skill-bar-color="#ada8fc" data-skill-bar-value="70">
+          <label for="v2" class="controls__param">SASS</label>
+        </div>
+        <div class="controls__group">
+          <input type="radio" id="v3" name="values" class="controls__switch js-switch" data-skill-bar-color="#fd7f80" data-skill-bar-value="80">
+          <label for="v3" class="controls__param">Version Control (Git)</label>
+        </div>
+         <div class="controls__group">
+          <input type="radio" id="v4" name="values" class="controls__switch js-switch" data-skill-bar-color="#F57C00" data-skill-bar-value="90" >
+          <label for="v4" class="controls__param">Jquery</label>
+        </div>
+      </div>
     </div>
   </div>
-</div><br><br><br>
+         
+    </div>
+  </div>
+  
+</div><br><br>
   <!-- fin de ahabilidades dos -->
 
-<section class="container section-contac">
+<section id="contacto" class="container section-contac">
     <div class="row"> 
        <div class="col-xs-12 col-md-6 text-right">
           <i class="fa fa-facebook-square iconito" aria-hidden="true"></i>
@@ -144,6 +187,7 @@
        </div>
        <div class="col-xs-12 col-md-6 text-lefh"><br>
             <p class="contacto  ">CONTACTAME</p>
+            <div id="bookmark"></div><style>#bookmark {width: 110px; height: 56px; padding-top: 15px; position: relative; background: red; color: white; font-size: 11px; letter-spacing: 0.2em; text-align: center; text-transform: uppercase; } #bookmark:after { content: ""; position: absolute; left: 0; bottom: 0; width: 0; height: 0; border-bottom: 13px solid #fff; border-left: 55px solid transparent; border-right: 55px solid transparent;}</style>
        </div>
     </div>
   </div>
@@ -151,7 +195,7 @@
 
 
       <div>
-       <h1><small>BIENVENIDOS</small> A mi portafolio<small>design web</small></h1>
+       <h1><small>Bienvenidos</small> A mi portafolio<small>Design web</small></h1>
 
 <!-- You can add more ".slideshow-image" elements, but remember to update the "$items" variable on SCSS -->
         
@@ -166,9 +210,15 @@
   <p class="text-footer text-center">Copyright © Sonia Paricahua reserved</p>
 </footer>
 
-    
+    <!-- <script>
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+});
+</script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/codigo.js"></script>
+    <script src="assets/js/habilidades.js"></script>
+    <script src="assets/js/habili2.js"></script>
   </body>
 </html>
