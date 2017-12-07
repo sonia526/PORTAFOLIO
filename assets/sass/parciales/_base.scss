@@ -49,9 +49,10 @@
 .contacto{
 	position:relative;
 	color:#E99B12;
-	font-size:40px;
+	font-size:30px;
 	font-family:'Passion One', cursive;
-	
+	// margin-right:30px;
+
 		}
 a.text-icono{
 	text-decoration:none;  
@@ -65,6 +66,9 @@ a.text-icono{
 }
 a.text-icono:hover{
     color:#005F9C;
+}
+.caja-centro{
+	margin-left:30px;
 }		
 .footer{
 	background-color:#005F9C;
