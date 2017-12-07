@@ -1,12 +1,19 @@
 /*navbar prueba*/
-.bienvenidos{
-    font-size:40px;
+
+.fa-bars{
+   font-size:30px;
+    border:1px solid orange;
+    color:orange;
+    padding:2px;
+    border-radius:3px;
+
 }
 .navbar-custom .nav li a:hover {
   color: #E9B32E;
   outline: none;
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;

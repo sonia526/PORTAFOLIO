@@ -19,9 +19,18 @@
 
 /*habilidades fin */
 .section-contac {
-  margin-top: 70px;
+  margin-top: 130px;
   width: 100%;
   height: 300px; }
+
+@media screen and (max-width: 370px) {
+  .section-contac {
+    margin: auto; } }
+.section-amarillo {
+  background-color: #E99B12;
+  width: 100%;
+  height: 10px;
+  position: static; }
 
 .iconito {
   font-size: 50px;
@@ -44,8 +53,12 @@
 .contacto {
   position: relative;
   color: #E99B12;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Passion One', cursive; }
+
+.text-contac {
+  font-size: 3px;
+  color: #E99B12; }
 
 a.text-icono {
   text-decoration: none;
@@ -57,6 +70,9 @@ a.text-icono {
 
 a.text-icono:hover {
   color: #005F9C; }
+
+.caja-centro {
+  margin-left: 30px; }
 
 .footer {
   background-color: #005F9C;
@@ -80,17 +96,29 @@ a.text-icono:hover {
   color: green; }
 
 .text-portafolio {
-  margin-top: 150px;
+  margin-top: 50px;
   color: #E9B32E;
   font-size: 40px;
   font-family: "Passion One", cursive; }
 
+@media screen and (max-width: 800px) {
+  body {
+    border: 1px solid red;
+    width: auto;
+    max-width: 800px; } }
 .titulo-porta {
   color: #E9B32E;
   font-size: 20px;
   font-family: "Passion One", cursive; }
 
 /*navbar prueba*/
+.fa-bars {
+  font-size: 30px;
+  border: 1px solid orange;
+  color: orange;
+  padding: 2px;
+  border-radius: 3px; }
+
 .navbar-custom .nav li a:hover {
   color: #E9B32E;
   outline: none;
@@ -429,7 +457,7 @@ a {
   animation-iteration-count: infinite;
   animation-duration: 16s;
   opacity: 1;
-  transform: scale(1.2); }
+  transform: scale(2.2); }
   .slideshow-image:nth-child(1) {
     animation-name: kenburns-1;
     z-index: 3; }
@@ -446,7 +474,7 @@ a {
 @keyframes kenburns-1 {
   0% {
     opacity: 1;
-    transform: scale(1.2); }
+    transform: scale(2.2); }
   1.5625% {
     opacity: 1; }
   23.4375% {
@@ -456,7 +484,7 @@ a {
     transform: scale(1); }
   100% {
     opacity: 0;
-    transform: scale(1.2); }
+    transform: scale(2.2); }
   98.4375% {
     opacity: 0;
     transform: scale(1.2117647059); }
@@ -465,7 +493,7 @@ a {
 @keyframes kenburns-2 {
   23.4375% {
     opacity: 1;
-    transform: scale(1.2); }
+    transform: scale(2.2); }
   26.5625% {
     opacity: 1; }
   48.4375% {
@@ -475,11 +503,11 @@ a {
     transform: scale(1); }
   100% {
     opacity: 0;
-    transform: scale(1.2); } }
+    transform: scale(2.2); } }
 @keyframes kenburns-3 {
   48.4375% {
     opacity: 1;
-    transform: scale(1.2); }
+    transform: scale(2.2); }
   51.5625% {
     opacity: 1; }
   73.4375% {
@@ -489,11 +517,11 @@ a {
     transform: scale(1); }
   100% {
     opacity: 0;
-    transform: scale(1.2); } }
+    transform: scale(2.2); } }
 @keyframes kenburns-4 {
   73.4375% {
     opacity: 1;
-    transform: scale(1.2); }
+    transform: scale(2.2); }
   76.5625% {
     opacity: 1; }
   98.4375% {
@@ -519,7 +547,7 @@ h1 {
   h1 small {
     display: block;
     text-transform: lowercase;
-    font-size: .7em; }
+    font-size: .8em; }
     h1 small:first-child {
       border-bottom: 1px solid rgba(0, 0, 0, 0.25);
       padding-bottom: .5em; }
@@ -529,14 +557,23 @@ h1 {
 
 /*mi foto*/
 .mi-foto {
-  margin-top: 80px;
+  margin-top: 100px;
   border-radius: 15%;
   width: 60%; }
 
+@media screen and (max-width: 370px) {
+  .mi-foto {
+    border: 1px solid green;
+    margin: auto;
+    margin-top: 30px;
+    height: 300px; }
+
+  .div-amarillo {
+    position: static; } }
 /*fin de mi foto*/
 .s-1 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: -moz-linear-gradient(45deg, #1a4686 0%, teal 100%);
   /* ff3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #1a4686), color-stop(100%, teal));
@@ -552,6 +589,10 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#1A4686',GradientType=1 );
   /* ie6-9 */ }
 
+.div-complemento {
+  width: 100%;
+  height: 62px; }
+
 .s-text {
   color: white;
   font-size: 20px;
@@ -563,6 +604,15 @@ h1 {
   font-size: 60px;
   font-family: "Passion One", cursive; }
 
+@media screen and (max-width: 370px) {
+  .s1-text {
+    border: 1px solid black;
+    margin-top: -50px;
+    font-size: 30px; }
+
+  .s-text {
+    font-size: 15px;
+    border: 1px solid red; } }
 .s-3 {
   background-color: white;
   width: 100%;

@@ -9,19 +9,27 @@
 
 .mi-foto{
  
- margin-top:80px;
+ margin-top:100px;
  border-radius:15%;
- // border:solid 1px white;
- // text-align:right;
  width:60%;
-  
-}
+  }
+  @media screen and (max-width:370px){
+    .mi-foto{
+        border:1px solid green;
+        margin:auto;
+        margin-top:30px;
+        height:300px;
+    }
+    .div-amarillo{
+        position:static;
+    }
+  }
 /*fin de mi foto*/
 
 .s-1{
 	// background-color:#dc4802;
 	width:100%;
-    height:100vh;
+    height:auto;
     
     background: -moz-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(26,70,134,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
@@ -31,6 +39,11 @@ background: -ms-linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 1
 background: linear-gradient(45deg, rgba(26,70,134,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#1A4686',GradientType=1 ); /* ie6-9 */
     
+}
+.div-complemento{
+    width:100%;
+    height:62px;
+
 }
 .s-text{
     color:white;
@@ -43,6 +56,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', end
         font-size:60px;
         font-family: $cursive;
 
+    }
+    @media screen and (max-width:370px){
+        .s1-text{
+            border:1px solid black;
+            margin-top:-50px;
+            
+            font-size:30px;
+        }
+        .s-text{
+            font-size:15px;
+            border:1px solid red;
+        }
+        
     }
 
 .s-3{
