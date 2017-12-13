@@ -103,7 +103,6 @@ a.text-icono:hover {
 
 @media screen and (max-width: 800px) {
   body {
-    border: 1px solid red;
     width: auto;
     max-width: 800px; } }
 .titulo-porta {
@@ -563,7 +562,6 @@ h1 {
 
 @media screen and (max-width: 370px) {
   .mi-foto {
-    border: 1px solid green;
     margin: auto;
     margin-top: 30px;
     height: 300px; }
@@ -606,13 +604,11 @@ h1 {
 
 @media screen and (max-width: 370px) {
   .s1-text {
-    border: 1px solid black;
     margin-top: -50px;
     font-size: 30px; }
 
   .s-text {
-    font-size: 15px;
-    border: 1px solid red; } }
+    font-size: 15px; } }
 .s-3 {
   background-color: white;
   width: 100%;
